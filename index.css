@@ -1,6 +1,9 @@
 body {
   background-image: url('resources/images/bg.jpg');
   background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* titles */
@@ -22,7 +25,7 @@ body {
 /* the body styles */
 .header {
   text-align: center;
-  font-family: Teko;
+  font-family: Montserrat;
   font-weight: medium 500;
   font-size: 30px;
   color: antiquewhite;
@@ -78,7 +81,7 @@ img {
   font-style: bold;
   font-weight: 800;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 24px;
   transition: background-color 0.2s;
 }
 

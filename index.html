@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Project</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>College Project</title>
-  <link rel="stylesheet" href="index.css" />
-  <!-- font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Teko:wght@300..700&display=swap"
-    rel="stylesheet" />
-</head>
+  <body>
+    <header class="header">
+      SEKAI KONICHIWA!!!
+      <h1 class="k1">This site is currently work in progress</h1>
+    </header>
 
-<body>
-  <header class="header">
-    SEKAI KONICHIWA!!!
-    <h1 class="k1">This site is currently work in progress</h1>
-  </header>
+    <div class="mid">
+      <h2 class="k2">To do:</h2>
+      <ul>
+        <li>add a good bg, perhaps a moving one</li>
+        <li>add links</li>
+        <li>learn css</li>
+        <li>change fonts</li>
+        <li>add a icon to website title</li>
+        <li>add about me</li>
+        <li>add links for my profile</li>
+      </ul>
+    </div>
 
-  <div class="mid">
-    <h2 class="k2">To do:</h2>
-    <ul>
-      <li>add a good bg, perhaps a moving one</li>
-      <li>add links</li>
-      <li>learn css</li>
-      <li>change fonts</li>
-      <li>add a icon to website title</li>
-      <li>add about me</li>
-      <li>add links for my profile</li>
-    </ul>
-  </div>
-
-  <div class="bot">
-    <h2 class="k2">What is this?</h2>
-    <p>
-      Hello, this site is an implementation for my college project, in which i
-      keep updating my know-how of html, css and frontend related stuff. I
-      love cats :3
-      <br />
-      Photo by
-      <a class="link1"
-        href="https://unsplash.com/@josefin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Josefin</a>
-      on
-      <a class="link1"
-        href="https://unsplash.com/photos/green-leafed-plant-WS5yjFjycNY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-    </p>
-  </div>
-  <div class="center">
-    <!-- https://www.hdwallpaper.nu/wp-content/uploads/2015/02/funny_cat_face_pictures.jpg -->
-    <img src="resources/images/catframe.jpeg" alt="{image of a cat}" class="bot" />
-  </div>
-  <div class="center">
-    <footer>
-      <button class="btn" id="linkBtn">My Github</button>
-      <script>
-        // Add event listener to the button
-        document
-          .getElementById("linkBtn")
-          .addEventListener("click", function () {
-            // Redirect when the button is clicked
-            window.open(
-              "https://github.com/kuroigg/kuroigg.github.io/",
-              "_blank"
-            );
-          });
-      </script>
-    </footer>
-  </div>
-</body>
-
+    <div class="bot">
+      <h2 class="k2">What is this?</h2>
+      <p>
+        Hello, this site is an implementation for my school project, in which i
+        keep updating my know-how of html, css and frontend related stuff. I
+        love cats :3
+        <br />
+        Background by
+        <a
+          class="link1"
+          href="https://unsplash.com/@josefin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Josefin</a
+        >
+        on
+        <a
+          class="link1"
+          href="https://unsplash.com/photos/green-leafed-plant-WS5yjFjycNY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Unsplash</a
+        >
+      </p>
+    </div>
+    <div class="center">
+      <!-- https://www.hdwallpaper.nu/wp-content/uploads/2015/02/funny_cat_face_pictures.jpg -->
+      <img
+        src="resources/images/catframe.jpeg"
+        alt="{image of a cat}"
+        class="bot"
+      />
+    </div>
+    <div class="center">
+      <footer>
+        <button class="btn" id="linkBtn">My Github</button>
+        <script>
+          // Add event listener to the button
+          document
+            .getElementById("linkBtn")
+            .addEventListener("click", function () {
+              // Redirect when the button is clicked
+              window.open(
+                "https://github.com/kuroigg/kuroigg.github.io/",
+                "_blank"
+              );
+            });
+        </script>
+      </footer>
+    </div>
+  </body>
 </html>
