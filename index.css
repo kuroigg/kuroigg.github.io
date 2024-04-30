@@ -1,16 +1,13 @@
-.body {
-  /* https://unsplash.com/photos/a-multicolored-tile-wall-with-a-pattern-of-small-squares-jR4Zf-riEjI */
-  background-image: url('resources/images/andrew-ridley-bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  background-size: cover;
+body {
+  background-image: url(resources/images/bg.jpg);
+  background-color: black;
 }
 
 /* titles */
 .k1 {
   font-family: Teko;
   font-weight: semibold 600;
+  color: antiquewhite;
 }
 
 .k2 {
@@ -19,6 +16,7 @@
   font-style: bold;
   font-size: 30px;
   margin-bottom: none;
+  color: antiquewhite;
 }
 
 /* the body styles */
@@ -27,21 +25,24 @@
   font-family: Teko;
   font-weight: medium 500;
   font-size: 30px;
+  color: antiquewhite;
 }
 
 .mid {
   margin-left: 100px;
   font-family: Montserrat;
   font-size: 24px;
+  color: antiquewhite;
 }
 
 .bot {
   text-align: center;
   font-family: Montserrat;
   font-size: 24px;
+  color: antiquewhite;
 }
 
-/* the image styles */
+/* the cat simage styles */
 .center {
   display: flex;
   justify-content: center;
@@ -54,26 +55,29 @@ img {
   object-fit: cover;
 }
 
-/* Github button */
-.link {
-  font-family: opensans;
-  font-style: bold;
-  font-weight: 800;
-  font-size: 15px;
+/* github button */
+.link1 {
+  font-family: Montserrat;
   text-decoration: none;
+  color: rgb(255, 185, 80);
   transition: color 0.2s;
 }
 
-.link:hover {
-  color: white;
+.link1:hover {
+  color: rgb(255, 227, 85);
+  text-decoration: underline;
 }
 
 .btn {
-  padding: 5px 10px;
-  border-radius: 20px;
-  border-color: rgb(186, 84, 255);
-  background-color: white;
-  color: rgb(186, 84, 255);
+  padding: 10px 20px;
+  border-radius: 30px;
+  border-color: rgb(211, 146, 255);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(211, 146, 255);
+  font-family: montserrat;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 20px;
   margin-top: 20px;
   transition: background-color 0.2s;
 }
