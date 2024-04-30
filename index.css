@@ -1,5 +1,5 @@
 body {
-  background-image: url(resources/images/bg.jpg);
+  background-image: url('resources/images/bg.jpg');
   background-color: black;
 }
 
@@ -42,7 +42,7 @@ body {
   color: antiquewhite;
 }
 
-/* the cat simage styles */
+/* the cat image styles */
 .center {
   display: flex;
   justify-content: center;
