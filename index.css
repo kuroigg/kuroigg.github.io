@@ -1,6 +1,7 @@
 body {
-  background-image: url('resources/images/bg.jpg');
-  background-color: black;
+  background-image: url('resources/images/low-poly-grid-haikei(2).svg');
+  background-blend-mode: multiply;
+  background-color: rgb(55, 17, 66);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -32,10 +33,10 @@ body {
 }
 
 .mid {
-  margin-left: 100px;
   font-family: Montserrat;
   font-size: 24px;
   color: antiquewhite;
+  text-align: center;
 }
 
 .bot {
