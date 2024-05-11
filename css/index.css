@@ -1,7 +1,10 @@
 body {
-  background-image: url('resources/images/low-poly-grid-haikei(2).svg');
+  background-image: url('../resources/images/low-poly-grid-haikei(2).svg');
   background-blend-mode: multiply;
-  background-color: rgb(55, 17, 66);
+  background-color: #480b6d;
+  /* background-color: linear-gradient(to bottom,
+        #ff4d4d,
+        #7020a1); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
