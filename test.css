@@ -1,0 +1,66 @@
+/* nav{
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar{
+display: inline-block;
+} */
+ 
+*{
+  /* font-size: 62.5%;  */
+  margin: 0px;
+  font-family: "Ubuntu Sans", Arial, Helvetica, sans-serif;
+}
+.header{
+  font-family: "Ubuntu";
+  font-weight: 300; 
+  font-size: 3rem;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+.bigtext{
+  font-family: "Jaro";
+  font-size: 5rem;
+  font-stretch: extra-expanded;
+  margin: 3rem;
+  text-align: center;
+}
+.contentbox{
+  display:flex;
+  justify-content: center;
+  padding: 0px 3rem;
+  /* text-align: center; */
+  /* padding: 2rem; */
+}
+.title{
+  font-family: "Ubuntu";
+  padding: 10px;
+  width: 10rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  /* height: 6rem; */
+  /* width: 4rem; */
+} 
+.disc{
+  padding: 10px;
+  width: 50rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: justify;
+  /* height: 6rem; */
+} 
+
+
+@media (min-width: 600px) {
+  .container{
+    flex-direction: row;
+    /* Side-by-side layout for larger screens */
+  }
+  .disc{
+    text-align: center;
+  }
+
+}
