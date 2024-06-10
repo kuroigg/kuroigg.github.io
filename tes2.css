@@ -19,7 +19,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items:center;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 #headertext{
   flex: 1;
@@ -27,23 +27,24 @@ nav{
   font-weight: 300;
   font-size: 2rem;
   padding: 0.625rem;
-  transition: all 0.2s;
 }
-a{
+#navlink{
   font-size: 1.5rem;
   padding: 14px 10px;
-  margin-left: 10px;
+  margin-left: 1rem;
+}
+#navlink, a{
   background-color: rgba(0,0,0,0);
   border: none;
   text-decoration: none;
   transition: all 0.2s;
 }
-a:hover, #headertext:hover{
+#navlink:hover, a:hover, #headertext:hover{
   color: #fff9ef;
   text-shadow: 0 0 10px #ede6d99e;
   cursor: pointer;
 }
-a:hover{
+#navlink:hover, a:hover{
   text-decoration: underline;
 }
 /* Grid */
@@ -66,7 +67,7 @@ a:hover{
 .box{
   display: flex;
   justify-content: center;
-  background-color: #cd282d;
+  background-color: #7A160D;
   border-radius: 10px;
   /* width: fit-content; */
   font-size: 1.25rem;
@@ -89,4 +90,10 @@ li{
 }
 .wrapperimage{
   align-self: flex-end;
+}
+
+/* footer */
+footer{
+  text-align: center;
+  margin: 3rem 0;
 }
