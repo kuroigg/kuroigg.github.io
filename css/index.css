@@ -67,11 +67,10 @@ a:hover {
   padding: 0.5rem 10rem 3rem 10rem;
 }
 
-/* .wrappertext{
-  padding: 0.5rem 1rem;
-} */
+.wrappertext{
+  order: 1;
+}
 .intro {
-  order: 2;
   font-size: 1.25rem;
   text-align: left;
   padding-right: 5rem;
@@ -96,7 +95,6 @@ li {
 
 /* main image */
 .img {
-  order: 1;
   /* width: 20rem; */
   height: 20rem;
   border-radius: 1rem;
@@ -105,6 +103,7 @@ li {
 }
 
 .wrapperimage {
+  order: 2;
   align-self: flex-end;
 }
 
@@ -136,7 +135,6 @@ footer {
     margin-bottom: 2rem;
     font-size: 2rem
   }
-
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -144,8 +142,10 @@ footer {
     margin: 0 1rem;
     padding: 0.5rem 1rem 3rem 1rem;
   }
-  .intro {
+  .wrappertext {
     order: 2;
+  }
+  .intro {
     font-size: 1.125rem;
     text-align: left;
     padding-right: 1rem;
@@ -170,7 +170,6 @@ footer {
 
   /* main image */
   .img {
-    order: 1;
     /* width: 20rem; */
     height: 15rem;
     border-radius: 1rem;
@@ -181,6 +180,8 @@ footer {
   }
 
   .wrapperimage {
+    margin-top: 2rem;
+    order: 1;
     align-self: center;
   }
 
