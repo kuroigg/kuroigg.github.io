@@ -115,7 +115,7 @@ footer {
 }
 
 /* media queries (my device is 345px wide)*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   nav {
     flex-direction: column;
   }
